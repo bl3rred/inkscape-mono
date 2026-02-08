@@ -1,0 +1,17 @@
+{
+  "name": "inkscape-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "inkscrape-frontend",
+    "inkscrape-backend"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace inkscrape-frontend",
+    "dev:backend": "npm run start --workspace inkscrape-backend",
+    "start:backend": "npm run start --workspace inkscrape-backend",
+    "build:frontend": "npm run build --workspace inkscrape-frontend",
+    "test:frontend": "npm run test --workspace inkscrape-frontend",
+    "lint:frontend": "npm run lint --workspace inkscrape-frontend"
+  }
+}
