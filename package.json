@@ -2,9 +2,6 @@
   "name": "inkscape-monorepo",
   "private": true,
   "version": "1.0.0",
-  "engines": {
-    "node": ">=20 <25"
-  },
   "workspaces": [
     "inkscrape-frontend",
     "inkscrape-backend"
